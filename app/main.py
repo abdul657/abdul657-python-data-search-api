@@ -2,15 +2,12 @@ from pathlib import Path
 from typing import Protocol
 
 import numpy as np
-from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
 
 from app.config import settings
 from app.embeddings import SentenceTransformerEncoder
 from app.schemas import DocumentBatch, DocumentListItem, SearchRequest, SearchResponse
 from app.store import SQLiteDocumentStore
-
-load_dotenv()
 
 
 class Encoder(Protocol):
