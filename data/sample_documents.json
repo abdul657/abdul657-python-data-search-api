@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fastapi-intro",
+    "text": "FastAPI is a modern Python framework for building HTTP APIs with validation and automatic OpenAPI documentation.",
+    "metadata": {
+      "topic": "python",
+      "source": "sample"
+    }
+  },
+  {
+    "id": "semantic-search",
+    "text": "Semantic search represents text as vectors and retrieves documents by comparing embedding similarity.",
+    "metadata": {
+      "topic": "search",
+      "source": "sample"
+    }
+  },
+  {
+    "id": "rag-overview",
+    "text": "Retrieval augmented generation retrieves relevant source passages before a language model produces a grounded response.",
+    "metadata": {
+      "topic": "ai",
+      "source": "sample"
+    }
+  },
+  {
+    "id": "react-typescript",
+    "text": "React is a user interface library and TypeScript provides static type checking for JavaScript applications.",
+    "metadata": {
+      "topic": "frontend",
+      "source": "sample"
+    }
+  },
+  {
+    "id": "postgresql",
+    "text": "PostgreSQL is a relational database with SQL queries, transactions, indexes, and JSON support.",
+    "metadata": {
+      "topic": "database",
+      "source": "sample"
+    }
+  }
+]
